@@ -68,7 +68,7 @@ def load_model(device: torch.device) -> torch.nn.Module:
 def predict_video(video_path: str, device: torch.device, threshold: float = 0.5) -> dict:
     model = load_model(device)
 
-    x, info = load_clip_tensor(video_path)  # (1,3,T,H,W)
+    x = load_clip_tensor(video_path)  # (1,3,T,H,W)
     x = x.to(device)
 
     logits = model(x)
@@ -77,7 +77,7 @@ def predict_video(video_path: str, device: torch.device, threshold: float = 0.5)
     pred_class = 1 if fight_prob >= threshold else 0
 
     return {
-        "video_info": info,
+        #"video_info": info,
         "pred_class": pred_class,
         "pred_label": "Fight" if pred_class == 1 else "NonFight",
         "fight_prob": fight_prob,
