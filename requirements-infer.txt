@@ -3,13 +3,13 @@
 torch==2.2.2
 torchvision==0.17.2
 
+numpy<2.0
+opencv-python-headless
+decord
+
 fastapi
 uvicorn[standard]
 python-multipart
 pydantic
-numpy
 pillow
 boto3
-decord
-opencv-python-headless
-numpy
