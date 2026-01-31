@@ -11,3 +11,4 @@ numpy
 pillow
 boto3
 decord
+opencv-python-headless
