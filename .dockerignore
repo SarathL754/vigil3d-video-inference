@@ -1,0 +1,15 @@
+.venv
+__pycache__
+.ipynb_checkpoints
+outputs
+data
+scripts
+sample_data
+*.tar.gz
+*.zip
+*.mp4
+*.avi
+*.mov
+*.mkv
+.git
+.gitignore

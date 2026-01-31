@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+torch
+torchvision
+decord
+boto3
+numpy
+python-multipart
