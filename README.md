@@ -45,7 +45,9 @@ The trained model was evaluated using standard classification metrics.
 Metrics Used
 
 - Confusion Matrix
+<img width="1280" height="960" alt="confusion_matrix" src="https://github.com/user-attachments/assets/ed9020d9-6183-4e81-9dc1-3fc40c955351" />
 - Precision-Recall (PR) Curve
+<img width="1280" height="960" alt="pr_curve" src="https://github.com/user-attachments/assets/ad652112-f259-4ce4-bc8e-150cafe3f1e9" />
 - Fight Probability Distribution
 - Threshold-based decision analysis
 
@@ -55,7 +57,6 @@ Key Observations
 - Adjustable decision threshold allows precision vs recall trade-off
 - High confidence predictions on clear violent events
 
-📌 Evaluation artifacts (confusion matrix, PR curve) are included in the project documentation and experiments.
 
 ---
 
