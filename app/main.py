@@ -16,6 +16,7 @@ ALLOWED_ORIGINS = [
     "http://localhost:5173",
     "http://localhost:4173",
     # replace with your actual Vercel domain(s)
+    "https://vigil-frontend-delta.vercel.app"
     "https://vigil-frontend.vercel.app",
     "https://*.vercel.app",  # optional (see note below)
 ]
