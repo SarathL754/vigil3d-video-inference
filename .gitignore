@@ -47,3 +47,6 @@ sample_data/
 *.key
 credentials.json
 
+CLAUDE.md
+
+

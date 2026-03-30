@@ -264,5 +264,5 @@ This project represents the foundational offline inference pipeline toward that 
 
 ## 🧑‍💻 Author
 
-Sarath L  
+Sarath Chandra L  
 MS in Artificial Intelligence
